@@ -1,0 +1,12 @@
+AllCops:
+  Exclude:
+    - spec/**/*
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 90
+
+Style/PerlBackrefs:
+  Enabled: false

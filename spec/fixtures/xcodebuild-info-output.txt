@@ -1,0 +1,12 @@
+Information about project "MegaProject":
+    Targets:
+        MegaProject
+
+    Build Configurations:
+        Debug
+        Release
+
+    If no build configuration is specified and -scheme is not passed then "Release" is used.
+
+    Schemes:
+        MegaProject
