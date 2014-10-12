@@ -9,7 +9,7 @@ describe Ognivo::Utils do
     before(:each) { described_class.update_item_for_file(file, item, dsa_file) }
 
     it 'sets pub_date' do
-      expect(item.pub_date).to eq(Time.new(2014, 8, 21, 13, 39, 52))
+      expect(item.pub_date).to be_a(Time)
     end
 
     it 'sets length' do
