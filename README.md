@@ -1,5 +1,8 @@
 # Ognivo
 
+[![Code Climate](http://img.shields.io/codeclimate/github/antlypls/ognivo.svg?style=flat)](https://codeclimate.com/github/antlypls/ognivo)
+[![Build Status](http://img.shields.io/travis/antlypls/ognivo.svg?style=flat)](https://travis-ci.org/antlypls/ognivo)
+
 Automates MacOS app updates distributing using the [Sparkle project](https://github.com/sparkle-project/Sparkle) and [Amazon S3](http://aws.amazon.com/s3/).
 
 > **NOTE** about gem's name:
