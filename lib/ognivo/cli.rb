@@ -1,6 +1,6 @@
 # program :name, 'ognivo'
 program :version, Ognivo::VERSION
-program :description, 'Automates MacOS app updates publishing using sparkle and S3'
+program :description, 'Build and publish MacOS apps updates with sparkle and S3'
 
 program :help, 'Author', 'Anatoliy Plastinin <hello@antlypls.com>'
 program :help, 'Website', 'http://github.com/antlypls/ognivo'

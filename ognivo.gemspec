@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Anatoliy Plastinin']
   spec.email         = ['hello@antlypls.com']
   spec.summary       = 'Ognivo'
-  spec.description   = 'Ognivo is CLI tool that automates publishing of ' \
-                       'MacOS application updates using sparkle by AWS S3'
+  spec.description   = 'Ognivo is CLI tool that automates creating MacOS app builds ' \
+                       'and destributing updates with Sparkle over Amazon S3.'
   spec.homepage      = ''
   spec.license       = 'MIT'
 
