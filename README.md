@@ -64,6 +64,8 @@ you can specify DSA private key to calculate code signature for Sparkle using
 Read more about code signing
 [here](https://github.com/sparkle-project/Sparkle/wiki#3-segue-for-security-concerns).
 
+> In order to use this feature you must install `openssl`.
+
 ### Releasing an update
 
 Most of the time you will use `release` command, that builds a new version and
