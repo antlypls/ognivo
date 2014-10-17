@@ -21,6 +21,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_dependency 'commander'
+  spec.add_dependency 'xctools'
   spec.add_dependency 'nokogiri'
   spec.add_dependency 'redcarpet'
   spec.add_dependency 'aws-sdk'

@@ -1,3 +1,5 @@
+require 'xctools'
+
 module Ognivo
   class Build
     include CLIHelpers
@@ -18,7 +20,7 @@ module Ognivo
     end
 
     def build_version
-      @build_version ||= Agvtool.marketing_version.to_s
+      @build_version ||= XcTools::Agvtool.marketing_version.to_s
     end
 
     attr_reader :zip_file
@@ -31,13 +33,13 @@ module Ognivo
     end
 
     def collect_settings
-      build_info = XcodeBuild.info(workspace: @workspace, project: @project)
+      build_info = XcTools::XcodeBuild.info(workspace: @workspace, project: @project)
 
       ensure_workspace_project
 
       @scheme = select_option('scheme', build_info.schemes) unless @scheme
 
-      build_settings = XcodeBuild.settings(*build_flags).find_app
+      build_settings = XcTools::XcodeBuild.settings(*build_flags).find_app
       validate_settings(build_settings)
 
       @build_configuration ||= build_settings['CONFIGURATION']

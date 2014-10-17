@@ -2,8 +2,6 @@ require 'ognivo/version'
 
 require 'ognivo/appcast'
 require 'ognivo/utils'
-require 'ognivo/xcodebuild'
-require 'ognivo/agvtool'
 
 require 'ognivo/cli_helpers'
 require 'ognivo/build'
