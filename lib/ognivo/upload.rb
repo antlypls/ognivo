@@ -103,7 +103,7 @@ module Ognivo
     end
 
     def create_item
-      say 'lets create an update entry'
+      say "Let's create an update entry"
       item = Appcast::Item.new(item_title, item_description, item_version)
       item.url = item_url
       item.type = 'application/octet-stream'
