@@ -64,7 +64,7 @@ you can specify DSA private key to calculate code signature for Sparkle using
 Read more about code signing
 [here](https://github.com/sparkle-project/Sparkle/wiki#3-segue-for-security-concerns).
 
-> In order to use this feature you must install `openssl`.
+> In order to use Sparkle's DSA build signing feature you must install `openssl`.
 
 ### Releasing an update
 
