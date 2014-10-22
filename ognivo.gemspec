@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'commander'
   spec.add_dependency 'xctools'
-  spec.add_dependency 'nokogiri'
+  spec.add_dependency 'sparklecast'
   spec.add_dependency 'redcarpet'
   spec.add_dependency 'aws-sdk'
 

@@ -1,10 +1,11 @@
 require 'spec_helper'
+require 'ostruct'
 
 describe Ognivo::Utils do
   describe '.update_itemfor_file' do
     let(:file) { File.expand_path('../fixtures/app.zip', __FILE__) }
     let(:dsa_file) { File.expand_path('../fixtures/test_dsa_priv.pem', __FILE__) }
-    let(:item) { Ognivo::Appcast::Item.new }
+    let(:item) { OpenStruct.new }
 
     before(:each) { described_class.update_item_for_file(file, item, dsa_file) }
 

@@ -1,3 +1,4 @@
+require 'sparklecast'
 require 'redcarpet'
 
 module Ognivo
@@ -48,7 +49,9 @@ module Ognivo
     end
 
     def create_cast
-      cast = Appcast.new(cast_title, cast_link, cast_description, cast_language)
+      cast = Sparklecast::Appcast.new(
+        cast_title, cast_link, cast_description, cast_language
+      )
 
       data = cast.generate
 
@@ -104,7 +107,7 @@ module Ognivo
 
     def create_item
       say "Let's create an update entry"
-      item = Appcast::Item.new(item_title, item_description, item_version)
+      item = Sparklecast::Appcast::Item.new(item_title, item_description, item_version)
       item.url = item_url
       item.type = 'application/octet-stream'
 
@@ -116,7 +119,7 @@ module Ognivo
     def add_item_to_app_cast(item)
       xml = s3_client.read(@appcast_name)
 
-      new_xml = Appcast.add_item(xml, item)
+      new_xml = Sparklecast::Appcast.add_item(xml, item)
 
       s3_client.upload(new_xml, @appcast_name)
     end

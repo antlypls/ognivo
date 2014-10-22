@@ -1,6 +1,5 @@
 require 'ognivo/version'
 
-require 'ognivo/appcast'
 require 'ognivo/utils'
 
 require 'ognivo/cli_helpers'
