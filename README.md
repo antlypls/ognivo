@@ -51,6 +51,9 @@ upload new `appcast.xml` file into provided bucket.
 
 You can change default appcast file name using `-c, --appcast` option.
 
+AWS credentials can also be provided via environment variables
+`AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`.
+
 ### Distributing an update
 
     $ spark upload -a aws_access_key -s aws_secret_key -b bucket_name MyApp.zip
