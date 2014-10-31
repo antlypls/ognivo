@@ -10,3 +10,7 @@ Metrics/LineLength:
 
 Style/PerlBackrefs:
   Enabled: false
+
+# lower to 15
+Metrics/AbcSize:
+  Max: 16

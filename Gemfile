@@ -5,6 +5,6 @@ gemspec
 group :test do
   gem 'rake'
   gem 'rspec', '~> 3.1.0'
-  gem 'rubocop', '>= 0.25', require: false
+  gem 'rubocop', '>= 0.27', require: false
   gem 'simplecov', require: false
 end
