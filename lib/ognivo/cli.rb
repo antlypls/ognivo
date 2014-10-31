@@ -1,4 +1,3 @@
-# program :name, 'ognivo'
 program :version, Ognivo::VERSION
 program :description, 'Build and publish OS X apps updates with sparkle and S3'
 
