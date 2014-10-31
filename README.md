@@ -3,7 +3,7 @@
 [![Code Climate](http://img.shields.io/codeclimate/github/antlypls/ognivo.svg?style=flat)](https://codeclimate.com/github/antlypls/ognivo)
 [![Build Status](http://img.shields.io/travis/antlypls/ognivo.svg?style=flat)](https://travis-ci.org/antlypls/ognivo)
 
-CLI tool for building and distributing updates for MacOS applications with [Sparkle](https://github.com/sparkle-project/Sparkle) via [Amazon S3](http://aws.amazon.com/s3/).
+CLI tool for building and distributing updates for OS X applications with [Sparkle](https://github.com/sparkle-project/Sparkle) via [Amazon S3](http://aws.amazon.com/s3/).
 
 > **NOTE** about gem's name:
 > *ognivo* is a russian word that means *fire striker*,
