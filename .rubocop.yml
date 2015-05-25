@@ -1,6 +1,7 @@
 AllCops:
   Exclude:
     - spec/**/*
+    - ognivo.gemspec
 
 Documentation:
   Enabled: false
