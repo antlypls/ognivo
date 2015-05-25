@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'xctools'
   spec.add_dependency 'sparklecast'
   spec.add_dependency 'redcarpet'
-  spec.add_dependency 'aws-sdk'
+  spec.add_dependency 'aws-sdk', '< 2.0'
 
   spec.add_development_dependency 'bundler', '~> 1.6'
 end
